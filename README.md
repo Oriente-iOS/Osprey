@@ -40,6 +40,51 @@ PageFactory 是Osprey 推荐使用的统一化的页面实例化工厂。
 ### PageFactory 设计说明
 OrienteBase 针对页面(ViewController)推荐采用统一的实例化方式，即从PageFactory工厂中实例化。通过工厂模式实例化页面，可以对页面做实例化前后拦截与重定向、生命周期管、生命周期监听、事件流控制等操作。本节的余下内容主要介绍PageFactory的具体设计。
 
+![PageFactoryFlow](https://github.com/Oriente-iOS/Osprey/blob/master/PageFactoryFlow.png)
+
+#### Tapable 的作用
+* Tapable(事件流)用于分发其本身对应的事件。
+* 每一个Tapable 是一类事件(TapableEvent)的控制中心。
+* 例如PageTapable 对应处理 pageEvent 的事件(pageEvent 注册了页面生命周期相关的事件: PageLoaded, PageBecomeActive ...).
+* `一类pageEvent 只支持8个互斥的事件 ！`
+* pageEvent 使用类似于抽象工厂模式
+* 通用事件流目前支持三种：
+
+pageEvent|页面生命周期相关事件
+---------|-------------
+switchEvent|tabbar 切换相关事件
+appEvent|应用生命周期相关事件
+
+#### Filter 的作用
+
+* Filter 用于在页面实例化前后做一些拦截并且响应页面Tapable分发的事件。
+* Filter 分为PreFilter 与 PostFilter。
+* PreFilter 在页面实例化之前调用，可以用来处理页面重定向。
+* PostFilter 在页面实例化之后调用，一般用来处理Tapable分发的事件。
+
+### PageFactory 相关 Api 设计说明
+
+PageFactory 类
+
++(PageFactory*)defaultFactory;|类方法： 获取默认的页面工厂句柄
+------------------------------|--------------------------
+-(__kindof UIViewController*)intialPageWithClassNameString:(NSString*)classNameString withParams:(NSDictionary*)params;|根据类的名称与传入的参数返回对应的UIViewController的实例 @param classNameString  类名的字符串表示 @param params 字典类型表示的参数 @return 对应class的UIViewController的实例
+
+>**注意事项**: 
+* 整个应用生命周期只需要实例化一次的页面，最好声明为单例页面，交由PageFactory来管理其生命周期
+* 声明单例页面 需要在该类的 @implementation 中声明 IsSingletonPage(YES) //默认为NO
+* PageFactory 通过construct 方法实例页面，同时可以实现属性的注入
+* PageFactory 支持自定义实例化方法，但是只允许传入一个参数 。传递的参数需要在params中声明。声明格式如下:在params 声明key值为 @"init" 对应的值为初始化化方法with后面的局部方法名 如果自定义方法为initWithContext: 那么@“init”对应的值为 @"context"初始化方法对应的参数对应的KEY为@“init”键对应的值, 如果初始化方法名为initWithDictionary: 那么忽略改键，直接将整个params作为参数传入初始化方法
+
+```
+// 对应初始化方法为 (instanceType)initWithContext:(NSString)context;
+{ @"init":@"context"
+  @"context":@"dev"
+}
+```
+* PageFactory 支持页面属性的注入，在params中声明键值为属性名对应的字符串，键值所对应的内容便注入到属性中了
+
+
 
 # License
 Ortrofit is released under the MIT license. See LICENSE for details.
