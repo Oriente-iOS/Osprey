@@ -154,7 +154,7 @@ TabItemConfiguration 用于为TabItem进行配置
 TabController 组合生成的TabViewController实现类与对应的TabItemConfigurations，已完成整个TabController 的构建TabController 支持配置插件，插件遵循 TabControllerTabSwitchProtocol 协议，用来从外部控制TabController 事件的切换 `TabController 声明了 extern 的变量 tabBarHeight，必须在业务工程中实现，用来定义整个应用的TabBarHeight`
 
 #### RACChannel的原理图
-
+![RACChannel](https://github.com/Oriente-iOS/Osprey/blob/master/RACChannel.png)
 
 # License
 Ortrofit is released under the MIT license. See LICENSE for details.
