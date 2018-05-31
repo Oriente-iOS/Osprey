@@ -8,6 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		761421348E4F62F776E2FE5A /* libPods-Osprey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5B0EEB406171670EC007F7 /* libPods-Osprey.a */; };
+		AF3F42DC20BFD64200D8F9DA /* NSString+UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F426A20BFD64100D8F9DA /* NSString+UIHelper.m */; };
+		AF3F42DD20BFD64200D8F9DA /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F426D20BFD64100D8F9DA /* NSArray+Functional.m */; };
+		AF3F42DE20BFD64200D8F9DA /* NSString+PathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F426E20BFD64100D8F9DA /* NSString+PathHelper.m */; };
+		AF3F42DF20BFD64200D8F9DA /* UIImage+UtilHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427120BFD64100D8F9DA /* UIImage+UtilHelper.m */; };
+		AF3F42E020BFD64200D8F9DA /* NSString+UtilHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427320BFD64100D8F9DA /* NSString+UtilHelper.m */; };
+		AF3F42E120BFD64200D8F9DA /* PageHierachyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427520BFD64200D8F9DA /* PageHierachyManager.m */; };
+		AF3F42E220BFD64200D8F9DA /* NavigatorBarReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427820BFD64200D8F9DA /* NavigatorBarReader.m */; };
+		AF3F42E320BFD64200D8F9DA /* NavigationBarStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427920BFD64200D8F9DA /* NavigationBarStyleManager.m */; };
+		AF3F42E420BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427A20BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.m */; };
+		AF3F42E520BFD64200D8F9DA /* NavigationBarDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F427B20BFD64200D8F9DA /* NavigationBarDescription.m */; };
+		AF3F42E620BFD64200D8F9DA /* UIViewController+NavigationBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428220BFD64200D8F9DA /* UIViewController+NavigationBarStyle.m */; };
+		AF3F42E720BFD64200D8F9DA /* TabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428420BFD64200D8F9DA /* TabItem.m */; };
+		AF3F42E820BFD64200D8F9DA /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428520BFD64200D8F9DA /* TabViewController.m */; };
+		AF3F42E920BFD64200D8F9DA /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428720BFD64200D8F9DA /* BaseNavigationController.m */; };
+		AF3F42EA20BFD64200D8F9DA /* TabItemConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428820BFD64200D8F9DA /* TabItemConfiguration.m */; };
+		AF3F42EB20BFD64200D8F9DA /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F428A20BFD64200D8F9DA /* TabController.m */; };
+		AF3F42EC20BFD64200D8F9DA /* ALNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429120BFD64200D8F9DA /* ALNavigationControllerDelegate.m */; };
+		AF3F42ED20BFD64200D8F9DA /* ALVCTransitionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429220BFD64200D8F9DA /* ALVCTransitionHelper.m */; };
+		AF3F42EE20BFD64200D8F9DA /* ALBounceDownVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429320BFD64200D8F9DA /* ALBounceDownVCTransition.m */; };
+		AF3F42EF20BFD64200D8F9DA /* ALPushVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429620BFD64200D8F9DA /* ALPushVCTransition.m */; };
+		AF3F42F020BFD64200D8F9DA /* ALFadeVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429720BFD64200D8F9DA /* ALFadeVCTransition.m */; };
+		AF3F42F120BFD64200D8F9DA /* ALBasicVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429820BFD64200D8F9DA /* ALBasicVCTransition.m */; };
+		AF3F42F220BFD64200D8F9DA /* ALCoverVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429B20BFD64200D8F9DA /* ALCoverVCTransition.m */; };
+		AF3F42F320BFD64200D8F9DA /* ALCrossDissolveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F429C20BFD64200D8F9DA /* ALCrossDissolveTransition.m */; };
+		AF3F42F420BFD64200D8F9DA /* KeyFrameVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42A020BFD64200D8F9DA /* KeyFrameVCTransition.m */; };
+		AF3F42F520BFD64200D8F9DA /* UIViewController+ALNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42A220BFD64200D8F9DA /* UIViewController+ALNavigation.m */; };
+		AF3F42F620BFD64200D8F9DA /* ALNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42A420BFD64200D8F9DA /* ALNavigationController.m */; };
+		AF3F42F720BFD64200D8F9DA /* UIViewController+Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42A520BFD64200D8F9DA /* UIViewController+Navigator.m */; };
+		AF3F42F820BFD64200D8F9DA /* UIViewController+PageRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42A720BFD64200D8F9DA /* UIViewController+PageRouter.m */; };
+		AF3F42F920BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42AD20BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.m */; };
+		AF3F42FA20BFD64300D8F9DA /* ALNoneInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42B020BFD64200D8F9DA /* ALNoneInteractiveTransition.m */; };
+		AF3F42FB20BFD64300D8F9DA /* ALVerticalSwipeInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42B320BFD64200D8F9DA /* ALVerticalSwipeInteractionTransition.m */; };
+		AF3F42FC20BFD64300D8F9DA /* ALPinchInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42B420BFD64200D8F9DA /* ALPinchInteractionTransition.m */; };
+		AF3F42FD20BFD64300D8F9DA /* ALBasicVCInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42B520BFD64200D8F9DA /* ALBasicVCInteractiveTransition.m */; };
+		AF3F42FE20BFD64300D8F9DA /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42B920BFD64200D8F9DA /* Reader.m */; };
+		AF3F42FF20BFD64300D8F9DA /* PropertiesParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42BD20BFD64200D8F9DA /* PropertiesParserDelegate.m */; };
+		AF3F430020BFD64300D8F9DA /* BaseRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42BE20BFD64200D8F9DA /* BaseRouter.m */; };
+		AF3F430120BFD64300D8F9DA /* BasePageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42C120BFD64200D8F9DA /* BasePageFilter.m */; };
+		AF3F430220BFD64300D8F9DA /* TapableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42C320BFD64200D8F9DA /* TapableEvent.m */; };
+		AF3F430320BFD64300D8F9DA /* PageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42C620BFD64200D8F9DA /* PageFactory.m */; };
+		AF3F430420BFD64300D8F9DA /* SwithEventTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42C820BFD64200D8F9DA /* SwithEventTapable.m */; };
+		AF3F430520BFD64300D8F9DA /* WeakDualTupe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42C920BFD64200D8F9DA /* WeakDualTupe.m */; };
+		AF3F430620BFD64300D8F9DA /* UIViewController+PageParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42CA20BFD64200D8F9DA /* UIViewController+PageParams.m */; };
+		AF3F430720BFD64300D8F9DA /* AppEventTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42CB20BFD64200D8F9DA /* AppEventTapable.m */; };
+		AF3F430820BFD64300D8F9DA /* DisplayEventTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42CC20BFD64200D8F9DA /* DisplayEventTapable.m */; };
+		AF3F430920BFD64300D8F9DA /* PageTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42CE20BFD64200D8F9DA /* PageTapable.m */; };
+		AF3F430A20BFD64300D8F9DA /* UIViewController+Tapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42D020BFD64200D8F9DA /* UIViewController+Tapable.m */; };
+		AF3F430B20BFD64300D8F9DA /* BaseTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42D220BFD64200D8F9DA /* BaseTapable.m */; };
+		AF3F430C20BFD64300D8F9DA /* CompoundTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42D420BFD64200D8F9DA /* CompoundTapable.m */; };
+		AF3F430D20BFD64300D8F9DA /* NSString+formatInitInstanceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F42DA20BFD64200D8F9DA /* NSString+formatInitInstanceMethods.m */; };
 		AFC3C65020BFCF8600E5473D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C64F20BFCF8600E5473D /* AppDelegate.m */; };
 		AFC3C65320BFCF8600E5473D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C65220BFCF8600E5473D /* ViewController.m */; };
 		AFC3C65620BFCF8600E5473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3C65420BFCF8600E5473D /* Main.storyboard */; };
@@ -37,6 +87,111 @@
 
 /* Begin PBXFileReference section */
 		4CCABDBA83D12583522F0FC9 /* Pods-Osprey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Osprey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Osprey/Pods-Osprey.release.xcconfig"; sourceTree = "<group>"; };
+		AF3F426920BFD64100D8F9DA /* NSString+PathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PathHelper.h"; sourceTree = "<group>"; };
+		AF3F426A20BFD64100D8F9DA /* NSString+UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UIHelper.m"; sourceTree = "<group>"; };
+		AF3F426B20BFD64100D8F9DA /* NSString+UtilHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UtilHelper.h"; sourceTree = "<group>"; };
+		AF3F426C20BFD64100D8F9DA /* UIImage+UtilHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UtilHelper.h"; sourceTree = "<group>"; };
+		AF3F426D20BFD64100D8F9DA /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
+		AF3F426E20BFD64100D8F9DA /* NSString+PathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PathHelper.m"; sourceTree = "<group>"; };
+		AF3F426F20BFD64100D8F9DA /* SparrowMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparrowMacro.h; sourceTree = "<group>"; };
+		AF3F427020BFD64100D8F9DA /* NSString+UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UIHelper.h"; sourceTree = "<group>"; };
+		AF3F427120BFD64100D8F9DA /* UIImage+UtilHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UtilHelper.m"; sourceTree = "<group>"; };
+		AF3F427220BFD64100D8F9DA /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
+		AF3F427320BFD64100D8F9DA /* NSString+UtilHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UtilHelper.m"; sourceTree = "<group>"; };
+		AF3F427520BFD64200D8F9DA /* PageHierachyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageHierachyManager.m; sourceTree = "<group>"; };
+		AF3F427620BFD64200D8F9DA /* PageHierachyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageHierachyManager.h; sourceTree = "<group>"; };
+		AF3F427820BFD64200D8F9DA /* NavigatorBarReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigatorBarReader.m; sourceTree = "<group>"; };
+		AF3F427920BFD64200D8F9DA /* NavigationBarStyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarStyleManager.m; sourceTree = "<group>"; };
+		AF3F427A20BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NavigationBarStyle.m"; sourceTree = "<group>"; };
+		AF3F427B20BFD64200D8F9DA /* NavigationBarDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarDescription.m; sourceTree = "<group>"; };
+		AF3F427C20BFD64200D8F9DA /* NavigationBarConfigureProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarConfigureProtocol.h; sourceTree = "<group>"; };
+		AF3F427D20BFD64200D8F9DA /* UIViewController+NavigationBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBarStyle.h"; sourceTree = "<group>"; };
+		AF3F427E20BFD64200D8F9DA /* NavigationBarStyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarStyleManager.h; sourceTree = "<group>"; };
+		AF3F427F20BFD64200D8F9DA /* NavigatorBarReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigatorBarReader.h; sourceTree = "<group>"; };
+		AF3F428020BFD64200D8F9DA /* NavigationBarDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarDescription.h; sourceTree = "<group>"; };
+		AF3F428120BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NavigationBarStyle.h"; sourceTree = "<group>"; };
+		AF3F428220BFD64200D8F9DA /* UIViewController+NavigationBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarStyle.m"; sourceTree = "<group>"; };
+		AF3F428420BFD64200D8F9DA /* TabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabItem.m; sourceTree = "<group>"; };
+		AF3F428520BFD64200D8F9DA /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		AF3F428620BFD64200D8F9DA /* TabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
+		AF3F428720BFD64200D8F9DA /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		AF3F428820BFD64200D8F9DA /* TabItemConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabItemConfiguration.m; sourceTree = "<group>"; };
+		AF3F428920BFD64200D8F9DA /* TabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabItem.h; sourceTree = "<group>"; };
+		AF3F428A20BFD64200D8F9DA /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+		AF3F428B20BFD64200D8F9DA /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		AF3F428C20BFD64200D8F9DA /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		AF3F428D20BFD64200D8F9DA /* TabItemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabItemConfiguration.h; sourceTree = "<group>"; };
+		AF3F429020BFD64200D8F9DA /* ALCoverVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCoverVCTransition.h; sourceTree = "<group>"; };
+		AF3F429120BFD64200D8F9DA /* ALNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		AF3F429220BFD64200D8F9DA /* ALVCTransitionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVCTransitionHelper.m; sourceTree = "<group>"; };
+		AF3F429320BFD64200D8F9DA /* ALBounceDownVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBounceDownVCTransition.m; sourceTree = "<group>"; };
+		AF3F429420BFD64200D8F9DA /* ALCrossDissolveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCrossDissolveTransition.h; sourceTree = "<group>"; };
+		AF3F429520BFD64200D8F9DA /* KeyFrameVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameVCTransition.h; sourceTree = "<group>"; };
+		AF3F429620BFD64200D8F9DA /* ALPushVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPushVCTransition.m; sourceTree = "<group>"; };
+		AF3F429720BFD64200D8F9DA /* ALFadeVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALFadeVCTransition.m; sourceTree = "<group>"; };
+		AF3F429820BFD64200D8F9DA /* ALBasicVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBasicVCTransition.m; sourceTree = "<group>"; };
+		AF3F429920BFD64200D8F9DA /* ALVCTransitionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVCTransitionHelper.h; sourceTree = "<group>"; };
+		AF3F429A20BFD64200D8F9DA /* ALNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		AF3F429B20BFD64200D8F9DA /* ALCoverVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCoverVCTransition.m; sourceTree = "<group>"; };
+		AF3F429C20BFD64200D8F9DA /* ALCrossDissolveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCrossDissolveTransition.m; sourceTree = "<group>"; };
+		AF3F429D20BFD64200D8F9DA /* ALBounceDownVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBounceDownVCTransition.h; sourceTree = "<group>"; };
+		AF3F429E20BFD64200D8F9DA /* ALFadeVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFadeVCTransition.h; sourceTree = "<group>"; };
+		AF3F429F20BFD64200D8F9DA /* ALPushVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPushVCTransition.h; sourceTree = "<group>"; };
+		AF3F42A020BFD64200D8F9DA /* KeyFrameVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameVCTransition.m; sourceTree = "<group>"; };
+		AF3F42A120BFD64200D8F9DA /* ALBasicVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBasicVCTransition.h; sourceTree = "<group>"; };
+		AF3F42A220BFD64200D8F9DA /* UIViewController+ALNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ALNavigation.m"; sourceTree = "<group>"; };
+		AF3F42A320BFD64200D8F9DA /* UIViewController+PageRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageRouter.h"; sourceTree = "<group>"; };
+		AF3F42A420BFD64200D8F9DA /* ALNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNavigationController.m; sourceTree = "<group>"; };
+		AF3F42A520BFD64200D8F9DA /* UIViewController+Navigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigator.m"; sourceTree = "<group>"; };
+		AF3F42A620BFD64200D8F9DA /* ALNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNavigator.h; sourceTree = "<group>"; };
+		AF3F42A720BFD64200D8F9DA /* UIViewController+PageRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageRouter.m"; sourceTree = "<group>"; };
+		AF3F42A820BFD64200D8F9DA /* UIViewController+ALNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ALNavigation.h"; sourceTree = "<group>"; };
+		AF3F42A920BFD64200D8F9DA /* PageNavigatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageNavigatorProtocol.h; sourceTree = "<group>"; };
+		AF3F42AA20BFD64200D8F9DA /* UIViewController+Navigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigator.h"; sourceTree = "<group>"; };
+		AF3F42AB20BFD64200D8F9DA /* ALNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNavigationController.h; sourceTree = "<group>"; };
+		AF3F42AD20BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHorizontalSwipeInteractionTransition.m; sourceTree = "<group>"; };
+		AF3F42AE20BFD64200D8F9DA /* ALPinchInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPinchInteractionTransition.h; sourceTree = "<group>"; };
+		AF3F42AF20BFD64200D8F9DA /* ALVerticalSwipeInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVerticalSwipeInteractionTransition.h; sourceTree = "<group>"; };
+		AF3F42B020BFD64200D8F9DA /* ALNoneInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNoneInteractiveTransition.m; sourceTree = "<group>"; };
+		AF3F42B120BFD64200D8F9DA /* ALBasicVCInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBasicVCInteractiveTransition.h; sourceTree = "<group>"; };
+		AF3F42B220BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHorizontalSwipeInteractionTransition.h; sourceTree = "<group>"; };
+		AF3F42B320BFD64200D8F9DA /* ALVerticalSwipeInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVerticalSwipeInteractionTransition.m; sourceTree = "<group>"; };
+		AF3F42B420BFD64200D8F9DA /* ALPinchInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPinchInteractionTransition.m; sourceTree = "<group>"; };
+		AF3F42B520BFD64200D8F9DA /* ALBasicVCInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBasicVCInteractiveTransition.m; sourceTree = "<group>"; };
+		AF3F42B620BFD64200D8F9DA /* ALNoneInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNoneInteractiveTransition.h; sourceTree = "<group>"; };
+		AF3F42B820BFD64200D8F9DA /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		AF3F42B920BFD64200D8F9DA /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
+		AF3F42BB20BFD64200D8F9DA /* PropertiesParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertiesParserDelegate.h; sourceTree = "<group>"; };
+		AF3F42BC20BFD64200D8F9DA /* BaseRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRouter.h; sourceTree = "<group>"; };
+		AF3F42BD20BFD64200D8F9DA /* PropertiesParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertiesParserDelegate.m; sourceTree = "<group>"; };
+		AF3F42BE20BFD64200D8F9DA /* BaseRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRouter.m; sourceTree = "<group>"; };
+		AF3F42C120BFD64200D8F9DA /* BasePageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageFilter.m; sourceTree = "<group>"; };
+		AF3F42C220BFD64200D8F9DA /* BasePageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePageFilter.h; sourceTree = "<group>"; };
+		AF3F42C320BFD64200D8F9DA /* TapableEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapableEvent.m; sourceTree = "<group>"; };
+		AF3F42C420BFD64200D8F9DA /* UIViewController+Tapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tapable.h"; sourceTree = "<group>"; };
+		AF3F42C520BFD64200D8F9DA /* CompoundTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompoundTapable.h; sourceTree = "<group>"; };
+		AF3F42C620BFD64200D8F9DA /* PageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFactory.m; sourceTree = "<group>"; };
+		AF3F42C720BFD64200D8F9DA /* BaseTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTapable.h; sourceTree = "<group>"; };
+		AF3F42C820BFD64200D8F9DA /* SwithEventTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwithEventTapable.m; sourceTree = "<group>"; };
+		AF3F42C920BFD64200D8F9DA /* WeakDualTupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakDualTupe.m; sourceTree = "<group>"; };
+		AF3F42CA20BFD64200D8F9DA /* UIViewController+PageParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageParams.m"; sourceTree = "<group>"; };
+		AF3F42CB20BFD64200D8F9DA /* AppEventTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppEventTapable.m; sourceTree = "<group>"; };
+		AF3F42CC20BFD64200D8F9DA /* DisplayEventTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayEventTapable.m; sourceTree = "<group>"; };
+		AF3F42CD20BFD64200D8F9DA /* NSString+formatInitInstanceMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+formatInitInstanceMethods.h"; sourceTree = "<group>"; };
+		AF3F42CE20BFD64200D8F9DA /* PageTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTapable.m; sourceTree = "<group>"; };
+		AF3F42CF20BFD64200D8F9DA /* TapableEventObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapableEventObserverProtocol.h; sourceTree = "<group>"; };
+		AF3F42D020BFD64200D8F9DA /* UIViewController+Tapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tapable.m"; sourceTree = "<group>"; };
+		AF3F42D120BFD64200D8F9DA /* TapableEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapableEvent.h; sourceTree = "<group>"; };
+		AF3F42D220BFD64200D8F9DA /* BaseTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTapable.m; sourceTree = "<group>"; };
+		AF3F42D320BFD64200D8F9DA /* PageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFactory.h; sourceTree = "<group>"; };
+		AF3F42D420BFD64200D8F9DA /* CompoundTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompoundTapable.m; sourceTree = "<group>"; };
+		AF3F42D520BFD64200D8F9DA /* AppEventTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppEventTapable.h; sourceTree = "<group>"; };
+		AF3F42D620BFD64200D8F9DA /* UIViewController+PageParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageParams.h"; sourceTree = "<group>"; };
+		AF3F42D720BFD64200D8F9DA /* WeakDualTupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDualTupe.h; sourceTree = "<group>"; };
+		AF3F42D820BFD64200D8F9DA /* SwithEventTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwithEventTapable.h; sourceTree = "<group>"; };
+		AF3F42D920BFD64200D8F9DA /* PageTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTapable.h; sourceTree = "<group>"; };
+		AF3F42DA20BFD64200D8F9DA /* NSString+formatInitInstanceMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+formatInitInstanceMethods.m"; sourceTree = "<group>"; };
+		AF3F42DB20BFD64200D8F9DA /* DisplayEventTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayEventTapable.h; sourceTree = "<group>"; };
 		AFC3C64B20BFCF8600E5473D /* Osprey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Osprey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC3C64E20BFCF8600E5473D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFC3C64F20BFCF8600E5473D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +255,199 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF3F426820BFD64100D8F9DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F426920BFD64100D8F9DA /* NSString+PathHelper.h */,
+				AF3F426A20BFD64100D8F9DA /* NSString+UIHelper.m */,
+				AF3F426B20BFD64100D8F9DA /* NSString+UtilHelper.h */,
+				AF3F426C20BFD64100D8F9DA /* UIImage+UtilHelper.h */,
+				AF3F426D20BFD64100D8F9DA /* NSArray+Functional.m */,
+				AF3F426E20BFD64100D8F9DA /* NSString+PathHelper.m */,
+				AF3F426F20BFD64100D8F9DA /* SparrowMacro.h */,
+				AF3F427020BFD64100D8F9DA /* NSString+UIHelper.h */,
+				AF3F427120BFD64100D8F9DA /* UIImage+UtilHelper.m */,
+				AF3F427220BFD64100D8F9DA /* NSArray+Functional.h */,
+				AF3F427320BFD64100D8F9DA /* NSString+UtilHelper.m */,
+			);
+			name = Utilities;
+			path = Osprey/Utilities;
+			sourceTree = "<group>";
+		};
+		AF3F427420BFD64200D8F9DA /* PageHierarchyManagement */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F427520BFD64200D8F9DA /* PageHierachyManager.m */,
+				AF3F427620BFD64200D8F9DA /* PageHierachyManager.h */,
+			);
+			name = PageHierarchyManagement;
+			path = Osprey/PageHierarchyManagement;
+			sourceTree = "<group>";
+		};
+		AF3F427720BFD64200D8F9DA /* NavigationBarConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F427820BFD64200D8F9DA /* NavigatorBarReader.m */,
+				AF3F427920BFD64200D8F9DA /* NavigationBarStyleManager.m */,
+				AF3F427A20BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.m */,
+				AF3F427B20BFD64200D8F9DA /* NavigationBarDescription.m */,
+				AF3F427C20BFD64200D8F9DA /* NavigationBarConfigureProtocol.h */,
+				AF3F427D20BFD64200D8F9DA /* UIViewController+NavigationBarStyle.h */,
+				AF3F427E20BFD64200D8F9DA /* NavigationBarStyleManager.h */,
+				AF3F427F20BFD64200D8F9DA /* NavigatorBarReader.h */,
+				AF3F428020BFD64200D8F9DA /* NavigationBarDescription.h */,
+				AF3F428120BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.h */,
+				AF3F428220BFD64200D8F9DA /* UIViewController+NavigationBarStyle.m */,
+			);
+			name = NavigationBarConfiguration;
+			path = Osprey/NavigationBarConfiguration;
+			sourceTree = "<group>";
+		};
+		AF3F428320BFD64200D8F9DA /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F428420BFD64200D8F9DA /* TabItem.m */,
+				AF3F428520BFD64200D8F9DA /* TabViewController.m */,
+				AF3F428620BFD64200D8F9DA /* TabController.h */,
+				AF3F428720BFD64200D8F9DA /* BaseNavigationController.m */,
+				AF3F428820BFD64200D8F9DA /* TabItemConfiguration.m */,
+				AF3F428920BFD64200D8F9DA /* TabItem.h */,
+				AF3F428A20BFD64200D8F9DA /* TabController.m */,
+				AF3F428B20BFD64200D8F9DA /* TabViewController.h */,
+				AF3F428C20BFD64200D8F9DA /* BaseNavigationController.h */,
+				AF3F428D20BFD64200D8F9DA /* TabItemConfiguration.h */,
+			);
+			name = TabController;
+			path = Osprey/TabController;
+			sourceTree = "<group>";
+		};
+		AF3F428E20BFD64200D8F9DA /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F428F20BFD64200D8F9DA /* transition */,
+				AF3F42A220BFD64200D8F9DA /* UIViewController+ALNavigation.m */,
+				AF3F42A320BFD64200D8F9DA /* UIViewController+PageRouter.h */,
+				AF3F42A420BFD64200D8F9DA /* ALNavigationController.m */,
+				AF3F42A520BFD64200D8F9DA /* UIViewController+Navigator.m */,
+				AF3F42A620BFD64200D8F9DA /* ALNavigator.h */,
+				AF3F42A720BFD64200D8F9DA /* UIViewController+PageRouter.m */,
+				AF3F42A820BFD64200D8F9DA /* UIViewController+ALNavigation.h */,
+				AF3F42A920BFD64200D8F9DA /* PageNavigatorProtocol.h */,
+				AF3F42AA20BFD64200D8F9DA /* UIViewController+Navigator.h */,
+				AF3F42AB20BFD64200D8F9DA /* ALNavigationController.h */,
+				AF3F42AC20BFD64200D8F9DA /* interaction */,
+			);
+			name = Navigator;
+			path = Osprey/Navigator;
+			sourceTree = "<group>";
+		};
+		AF3F428F20BFD64200D8F9DA /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F429020BFD64200D8F9DA /* ALCoverVCTransition.h */,
+				AF3F429120BFD64200D8F9DA /* ALNavigationControllerDelegate.m */,
+				AF3F429220BFD64200D8F9DA /* ALVCTransitionHelper.m */,
+				AF3F429320BFD64200D8F9DA /* ALBounceDownVCTransition.m */,
+				AF3F429420BFD64200D8F9DA /* ALCrossDissolveTransition.h */,
+				AF3F429520BFD64200D8F9DA /* KeyFrameVCTransition.h */,
+				AF3F429620BFD64200D8F9DA /* ALPushVCTransition.m */,
+				AF3F429720BFD64200D8F9DA /* ALFadeVCTransition.m */,
+				AF3F429820BFD64200D8F9DA /* ALBasicVCTransition.m */,
+				AF3F429920BFD64200D8F9DA /* ALVCTransitionHelper.h */,
+				AF3F429A20BFD64200D8F9DA /* ALNavigationControllerDelegate.h */,
+				AF3F429B20BFD64200D8F9DA /* ALCoverVCTransition.m */,
+				AF3F429C20BFD64200D8F9DA /* ALCrossDissolveTransition.m */,
+				AF3F429D20BFD64200D8F9DA /* ALBounceDownVCTransition.h */,
+				AF3F429E20BFD64200D8F9DA /* ALFadeVCTransition.h */,
+				AF3F429F20BFD64200D8F9DA /* ALPushVCTransition.h */,
+				AF3F42A020BFD64200D8F9DA /* KeyFrameVCTransition.m */,
+				AF3F42A120BFD64200D8F9DA /* ALBasicVCTransition.h */,
+			);
+			path = transition;
+			sourceTree = "<group>";
+		};
+		AF3F42AC20BFD64200D8F9DA /* interaction */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F42AD20BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.m */,
+				AF3F42AE20BFD64200D8F9DA /* ALPinchInteractionTransition.h */,
+				AF3F42AF20BFD64200D8F9DA /* ALVerticalSwipeInteractionTransition.h */,
+				AF3F42B020BFD64200D8F9DA /* ALNoneInteractiveTransition.m */,
+				AF3F42B120BFD64200D8F9DA /* ALBasicVCInteractiveTransition.h */,
+				AF3F42B220BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.h */,
+				AF3F42B320BFD64200D8F9DA /* ALVerticalSwipeInteractionTransition.m */,
+				AF3F42B420BFD64200D8F9DA /* ALPinchInteractionTransition.m */,
+				AF3F42B520BFD64200D8F9DA /* ALBasicVCInteractiveTransition.m */,
+				AF3F42B620BFD64200D8F9DA /* ALNoneInteractiveTransition.h */,
+			);
+			path = interaction;
+			sourceTree = "<group>";
+		};
+		AF3F42B720BFD64200D8F9DA /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F42B820BFD64200D8F9DA /* Reader.h */,
+				AF3F42B920BFD64200D8F9DA /* Reader.m */,
+			);
+			name = Reader;
+			path = Osprey/Reader;
+			sourceTree = "<group>";
+		};
+		AF3F42BA20BFD64200D8F9DA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F42BB20BFD64200D8F9DA /* PropertiesParserDelegate.h */,
+				AF3F42BC20BFD64200D8F9DA /* BaseRouter.h */,
+				AF3F42BD20BFD64200D8F9DA /* PropertiesParserDelegate.m */,
+				AF3F42BE20BFD64200D8F9DA /* BaseRouter.m */,
+			);
+			name = Router;
+			path = Osprey/Router;
+			sourceTree = "<group>";
+		};
+		AF3F42BF20BFD64200D8F9DA /* PageFactory */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F42C020BFD64200D8F9DA /* Filters */,
+				AF3F42C320BFD64200D8F9DA /* TapableEvent.m */,
+				AF3F42C420BFD64200D8F9DA /* UIViewController+Tapable.h */,
+				AF3F42C520BFD64200D8F9DA /* CompoundTapable.h */,
+				AF3F42C620BFD64200D8F9DA /* PageFactory.m */,
+				AF3F42C720BFD64200D8F9DA /* BaseTapable.h */,
+				AF3F42C820BFD64200D8F9DA /* SwithEventTapable.m */,
+				AF3F42C920BFD64200D8F9DA /* WeakDualTupe.m */,
+				AF3F42CA20BFD64200D8F9DA /* UIViewController+PageParams.m */,
+				AF3F42CB20BFD64200D8F9DA /* AppEventTapable.m */,
+				AF3F42CC20BFD64200D8F9DA /* DisplayEventTapable.m */,
+				AF3F42CD20BFD64200D8F9DA /* NSString+formatInitInstanceMethods.h */,
+				AF3F42CE20BFD64200D8F9DA /* PageTapable.m */,
+				AF3F42CF20BFD64200D8F9DA /* TapableEventObserverProtocol.h */,
+				AF3F42D020BFD64200D8F9DA /* UIViewController+Tapable.m */,
+				AF3F42D120BFD64200D8F9DA /* TapableEvent.h */,
+				AF3F42D220BFD64200D8F9DA /* BaseTapable.m */,
+				AF3F42D320BFD64200D8F9DA /* PageFactory.h */,
+				AF3F42D420BFD64200D8F9DA /* CompoundTapable.m */,
+				AF3F42D520BFD64200D8F9DA /* AppEventTapable.h */,
+				AF3F42D620BFD64200D8F9DA /* UIViewController+PageParams.h */,
+				AF3F42D720BFD64200D8F9DA /* WeakDualTupe.h */,
+				AF3F42D820BFD64200D8F9DA /* SwithEventTapable.h */,
+				AF3F42D920BFD64200D8F9DA /* PageTapable.h */,
+				AF3F42DA20BFD64200D8F9DA /* NSString+formatInitInstanceMethods.m */,
+				AF3F42DB20BFD64200D8F9DA /* DisplayEventTapable.h */,
+			);
+			name = PageFactory;
+			path = Osprey/PageFactory;
+			sourceTree = "<group>";
+		};
+		AF3F42C020BFD64200D8F9DA /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F42C120BFD64200D8F9DA /* BasePageFilter.m */,
+				AF3F42C220BFD64200D8F9DA /* BasePageFilter.h */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		AFC3C64220BFCF8600E5473D = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +473,14 @@
 		AFC3C64D20BFCF8600E5473D /* Osprey */ = {
 			isa = PBXGroup;
 			children = (
+				AF3F427720BFD64200D8F9DA /* NavigationBarConfiguration */,
+				AF3F428E20BFD64200D8F9DA /* Navigator */,
+				AF3F42BF20BFD64200D8F9DA /* PageFactory */,
+				AF3F427420BFD64200D8F9DA /* PageHierarchyManagement */,
+				AF3F42B720BFD64200D8F9DA /* Reader */,
+				AF3F42BA20BFD64200D8F9DA /* Router */,
+				AF3F428320BFD64200D8F9DA /* TabController */,
+				AF3F426820BFD64100D8F9DA /* Utilities */,
 				AFC3C64E20BFCF8600E5473D /* AppDelegate.h */,
 				AFC3C64F20BFCF8600E5473D /* AppDelegate.m */,
 				AFC3C65120BFCF8600E5473D /* ViewController.h */,
@@ -340,9 +696,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3F42DF20BFD64200D8F9DA /* UIImage+UtilHelper.m in Sources */,
+				AF3F430820BFD64300D8F9DA /* DisplayEventTapable.m in Sources */,
+				AF3F430520BFD64300D8F9DA /* WeakDualTupe.m in Sources */,
+				AF3F42E020BFD64200D8F9DA /* NSString+UtilHelper.m in Sources */,
+				AF3F42F920BFD64200D8F9DA /* ALHorizontalSwipeInteractionTransition.m in Sources */,
+				AF3F42F620BFD64200D8F9DA /* ALNavigationController.m in Sources */,
+				AF3F430C20BFD64300D8F9DA /* CompoundTapable.m in Sources */,
+				AF3F42EC20BFD64200D8F9DA /* ALNavigationControllerDelegate.m in Sources */,
+				AF3F42EF20BFD64200D8F9DA /* ALPushVCTransition.m in Sources */,
+				AF3F42F220BFD64200D8F9DA /* ALCoverVCTransition.m in Sources */,
+				AF3F42E320BFD64200D8F9DA /* NavigationBarStyleManager.m in Sources */,
+				AF3F42FB20BFD64300D8F9DA /* ALVerticalSwipeInteractionTransition.m in Sources */,
 				AFC3C65320BFCF8600E5473D /* ViewController.m in Sources */,
+				AF3F42ED20BFD64200D8F9DA /* ALVCTransitionHelper.m in Sources */,
+				AF3F430020BFD64300D8F9DA /* BaseRouter.m in Sources */,
+				AF3F430120BFD64300D8F9DA /* BasePageFilter.m in Sources */,
+				AF3F42E820BFD64200D8F9DA /* TabViewController.m in Sources */,
+				AF3F42F420BFD64200D8F9DA /* KeyFrameVCTransition.m in Sources */,
+				AF3F42F120BFD64200D8F9DA /* ALBasicVCTransition.m in Sources */,
+				AF3F42EA20BFD64200D8F9DA /* TabItemConfiguration.m in Sources */,
+				AF3F42DD20BFD64200D8F9DA /* NSArray+Functional.m in Sources */,
+				AF3F42E120BFD64200D8F9DA /* PageHierachyManager.m in Sources */,
+				AF3F42E520BFD64200D8F9DA /* NavigationBarDescription.m in Sources */,
+				AF3F42FF20BFD64300D8F9DA /* PropertiesParserDelegate.m in Sources */,
+				AF3F430B20BFD64300D8F9DA /* BaseTapable.m in Sources */,
+				AF3F430920BFD64300D8F9DA /* PageTapable.m in Sources */,
+				AF3F42FD20BFD64300D8F9DA /* ALBasicVCInteractiveTransition.m in Sources */,
+				AF3F42F720BFD64200D8F9DA /* UIViewController+Navigator.m in Sources */,
+				AF3F430720BFD64300D8F9DA /* AppEventTapable.m in Sources */,
 				AFC3C65E20BFCF8700E5473D /* main.m in Sources */,
+				AF3F430220BFD64300D8F9DA /* TapableEvent.m in Sources */,
+				AF3F42F320BFD64200D8F9DA /* ALCrossDissolveTransition.m in Sources */,
+				AF3F42E220BFD64200D8F9DA /* NavigatorBarReader.m in Sources */,
+				AF3F42E720BFD64200D8F9DA /* TabItem.m in Sources */,
+				AF3F42E920BFD64200D8F9DA /* BaseNavigationController.m in Sources */,
+				AF3F42F020BFD64200D8F9DA /* ALFadeVCTransition.m in Sources */,
+				AF3F430620BFD64300D8F9DA /* UIViewController+PageParams.m in Sources */,
 				AFC3C65020BFCF8600E5473D /* AppDelegate.m in Sources */,
+				AF3F42EB20BFD64200D8F9DA /* TabController.m in Sources */,
+				AF3F42FE20BFD64300D8F9DA /* Reader.m in Sources */,
+				AF3F42F520BFD64200D8F9DA /* UIViewController+ALNavigation.m in Sources */,
+				AF3F42E620BFD64200D8F9DA /* UIViewController+NavigationBarStyle.m in Sources */,
+				AF3F430320BFD64300D8F9DA /* PageFactory.m in Sources */,
+				AF3F430420BFD64300D8F9DA /* SwithEventTapable.m in Sources */,
+				AF3F430D20BFD64300D8F9DA /* NSString+formatInitInstanceMethods.m in Sources */,
+				AF3F42E420BFD64200D8F9DA /* UINavigationController+NavigationBarStyle.m in Sources */,
+				AF3F42DE20BFD64200D8F9DA /* NSString+PathHelper.m in Sources */,
+				AF3F430A20BFD64300D8F9DA /* UIViewController+Tapable.m in Sources */,
+				AF3F42FC20BFD64300D8F9DA /* ALPinchInteractionTransition.m in Sources */,
+				AF3F42EE20BFD64200D8F9DA /* ALBounceDownVCTransition.m in Sources */,
+				AF3F42F820BFD64200D8F9DA /* UIViewController+PageRouter.m in Sources */,
+				AF3F42FA20BFD64300D8F9DA /* ALNoneInteractiveTransition.m in Sources */,
+				AF3F42DC20BFD64200D8F9DA /* NSString+UIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

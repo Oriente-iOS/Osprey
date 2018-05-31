@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+CGFloat tabBarHeight = 50.0f;
+
 @interface AppDelegate ()
 
 @end
