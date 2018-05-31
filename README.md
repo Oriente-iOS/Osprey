@@ -84,6 +84,56 @@ PageFactory 类
 ```
 * PageFactory 支持页面属性的注入，在params中声明键值为属性名对应的字符串，键值所对应的内容便注入到属性中了
 
+# Osprey - Router
+
+Router 用于以URL的方式，实现界面路由。将路由协议与与协议对应的页面注册到配置文件中，在应用中通过相应的协议来找到对应的页面，并且通过Navigator 将页面展现出来。
+
+### 路由协议设计
+
+路由的协议设计参照了URL的协议标准，相当于URL的一个子集，格式如下。
+
+```
+路由协议格式
+
+scheme://host/path1/path2/path3?key1=val1&key2=val
+
+scheme: 必选
+
+host: 必选
+
+path: 可选
+
+query: 可选
+
+示例  cashalo://user/setting?userId=20180101
+```
+
+### 路由配置文件
+
+每一应用都需要一个路由配置文件。 路由配置文件的后缀为".properties"; 需要主动注册到 BaseRouter 中。配置文件的格式要求示例如下
+```
+#注释格式
+#对应寻址的URL协议为cashalo://user/settings/changepassword
+#采用 "." 做路径的区分 按照 scheme.host.pathComponent0.pathComponent1 的格式注册协议
+cashalo.user.settings.changepassword = CAUserSettingChangePwdPage
+```
+### 默认路由配置项
+Osprey 为每个应用提供了一些默认配置项，配置项的路由协议如下，具体的应用示情况实现相关路由的配置。
+协议|KEY的表示|备注
+-----|-----|-----
+base://tabviewcontroller|base.tabviewcontroller| 如果应用使用了OrienteBase.TabController的Tabbar需要按照该协议注册继承 TabViewController 的子类到路由的 .properties 文件中
+
+
+# Osprey - TabController
+
+TabController 是为整个Oriente工程设计的自定义TabBar 控制器。
+
+### 设计说明
+
+* TabController 的构成如下图所示， 整个页面的容器放在TabViewController 中， 一个TabViewController 承载多个BaseNavigatorViewController。 
+* TabController类负责下方TabBar的显示，TabBar下方TabItemView的点击事件响应于页面切换。
+* TabItem类表示每个TabBar的子项，每个TabItem都包含一个TabItemView, BaseNavigatorViewController.
+* TabItem类的配置是通过TabItemConfiguration完成。
 
 
 # License
