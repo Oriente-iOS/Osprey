@@ -135,6 +135,26 @@ TabController 是为整个Oriente工程设计的自定义TabBar 控制器。
 * TabItem类表示每个TabBar的子项，每个TabItem都包含一个TabItemView, BaseNavigatorViewController.
 * TabItem类的配置是通过TabItemConfiguration完成。
 
+![TabController](https://github.com/Oriente-iOS/Osprey/blob/master/TabController.png)
+
+### 使用说明与注意事项
+
+#### TabViewController类的使用
+* TabViewController 类声明为虚基类(必须通过继承使用)
+* 一个App 需要且只需要实例一个TabViewController子类，作为业务页面的容器。最好该类声明为单例页面，通过PageFactory管理
+* 子类可以通过覆写 customizeTabContainerView: 方法，对TabBar的视图样式进行定制
+
+#### TabItemConfiguration的配置说明
+TabItemConfiguration 用于为TabItem进行配置
+* 配置 TabItemView 需要的文本和icon样式
+* 配置点击对应Item 展现的基页面(一般声明为单例)
+* 分配TabItem的categoryID 用于检索TabItem使用
+
+#### TabController的使用说明与注意事项
+TabController 组合生成的TabViewController实现类与对应的TabItemConfigurations，已完成整个TabController 的构建TabController 支持配置插件，插件遵循 TabControllerTabSwitchProtocol 协议，用来从外部控制TabController 事件的切换 `TabController 声明了 extern 的变量 tabBarHeight，必须在业务工程中实现，用来定义整个应用的TabBarHeight`
+
+#### RACChannel的原理图
+
 
 # License
 Ortrofit is released under the MIT license. See LICENSE for details.
