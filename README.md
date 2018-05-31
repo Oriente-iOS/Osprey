@@ -71,18 +71,18 @@ PageFactory 类
 -(__kindof UIViewController*)intialPageWithClassNameString:(NSString*)classNameString withParams:(NSDictionary*)params;|根据类的名称与传入的参数返回对应的UIViewController的实例 @param classNameString  类名的字符串表示 @param params 字典类型表示的参数 @return 对应class的UIViewController的实例
 
 >**注意事项**: 
-* 整个应用生命周期只需要实例化一次的页面，最好声明为单例页面，交由PageFactory来管理其生命周期
-* 声明单例页面 需要在该类的 @implementation 中声明 IsSingletonPage(YES) //默认为NO
-* PageFactory 通过construct 方法实例页面，同时可以实现属性的注入
-* PageFactory 支持自定义实例化方法，但是只允许传入一个参数 。传递的参数需要在params中声明。声明格式如下:在params 声明key值为 @"init" 对应的值为初始化化方法with后面的局部方法名 如果自定义方法为initWithContext: 那么@“init”对应的值为 @"context"初始化方法对应的参数对应的KEY为@“init”键对应的值, 如果初始化方法名为initWithDictionary: 那么忽略改键，直接将整个params作为参数传入初始化方法
+>* 整个应用生命周期只需要实例化一次的页面，最好声明为单例页面，交由PageFactory来管理其生命周期
+>* 声明单例页面 需要在该类的 @implementation 中声明 IsSingletonPage(YES) //默认为NO
+>* PageFactory 通过construct 方法实例页面，同时可以实现属性的注入
+>* PageFactory 支持自定义实例化方法，但是只允许传入一个参数 。传递的参数需要在params中声明。声明格式如下:在params 声明key值为 @"init" 对应的值为初始化化方法with后面的局部方法名 如果自定义方法为initWithContext: 那么@“init”对应的值为 @"context"初始化方法对应的参数对应的KEY为@“init”键对应的值, 如果初始化方法名为initWithDictionary: 那么忽略改键，直接将整个params作为参数传入初始化方法
 
-```
+>```
 // 对应初始化方法为 (instanceType)initWithContext:(NSString)context;
 { @"init":@"context"
   @"context":@"dev"
 }
 ```
-* PageFactory 支持页面属性的注入，在params中声明键值为属性名对应的字符串，键值所对应的内容便注入到属性中了
+>* PageFactory 支持页面属性的注入，在params中声明键值为属性名对应的字符串，键值所对应的内容便注入到属性中了
 
 # Osprey - Router
 
