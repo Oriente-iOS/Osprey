@@ -34,7 +34,11 @@ Osprey.Navigator 支持页面导航的自定义行为，提供一个类方法和
 ### UIViewController+PageRouter
 UIViewController 扩展了路由的方法，提供了从协议查找，页面实例，push管理  整个操作的方法，建议开发使用该方法完成页面之间的路由操作
 
-### 相关API说明
+# Osprey - PageFactory
+PageFactory 是Osprey 推荐使用的统一化的页面实例化工厂。
+
+### PageFactory 设计说明
+OrienteBase 针对页面(ViewController)推荐采用统一的实例化方式，即从PageFactory工厂中实例化。通过工厂模式实例化页面，可以对页面做实例化前后拦截与重定向、生命周期管、生命周期监听、事件流控制等操作。本节的余下内容主要介绍PageFactory的具体设计。
 
 
 # License
