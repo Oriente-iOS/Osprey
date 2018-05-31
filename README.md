@@ -76,7 +76,7 @@ PageFactory 类
 >* PageFactory 通过construct 方法实例页面，同时可以实现属性的注入
 >* PageFactory 支持自定义实例化方法，但是只允许传入一个参数 。传递的参数需要在params中声明。声明格式如下:在params 声明key值为 @"init" 对应的值为初始化化方法with后面的局部方法名 如果自定义方法为initWithContext: 那么@“init”对应的值为 @"context"初始化方法对应的参数对应的KEY为@“init”键对应的值, 如果初始化方法名为initWithDictionary: 那么忽略改键，直接将整个params作为参数传入初始化方法
 
->```
+```
 // 对应初始化方法为 (instanceType)initWithContext:(NSString)context;
 { @"init":@"context"
   @"context":@"dev"
