@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761421348E4F62F776E2FE5A /* libPods-Osprey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5B0EEB406171670EC007F7 /* libPods-Osprey.a */; };
+		AFC3C65020BFCF8600E5473D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C64F20BFCF8600E5473D /* AppDelegate.m */; };
+		AFC3C65320BFCF8600E5473D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C65220BFCF8600E5473D /* ViewController.m */; };
+		AFC3C65620BFCF8600E5473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3C65420BFCF8600E5473D /* Main.storyboard */; };
+		AFC3C65820BFCF8700E5473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC3C65720BFCF8700E5473D /* Assets.xcassets */; };
+		AFC3C65B20BFCF8700E5473D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3C65920BFCF8700E5473D /* LaunchScreen.storyboard */; };
+		AFC3C65E20BFCF8700E5473D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C65D20BFCF8700E5473D /* main.m */; };
+		AFC3C66820BFCF8700E5473D /* OspreyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C66720BFCF8700E5473D /* OspreyTests.m */; };
+		AFC3C67320BFCF8700E5473D /* OspreyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3C67220BFCF8700E5473D /* OspreyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC3C66420BFCF8700E5473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC3C64320BFCF8600E5473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC3C64A20BFCF8600E5473D;
+			remoteInfo = Osprey;
+		};
+		AFC3C66F20BFCF8700E5473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC3C64320BFCF8600E5473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC3C64A20BFCF8600E5473D;
+			remoteInfo = Osprey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCABDBA83D12583522F0FC9 /* Pods-Osprey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Osprey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Osprey/Pods-Osprey.release.xcconfig"; sourceTree = "<group>"; };
+		AFC3C64B20BFCF8600E5473D /* Osprey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Osprey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC3C64E20BFCF8600E5473D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFC3C64F20BFCF8600E5473D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFC3C65120BFCF8600E5473D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFC3C65220BFCF8600E5473D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFC3C65520BFCF8600E5473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC3C65720BFCF8700E5473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC3C65A20BFCF8700E5473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC3C65C20BFCF8700E5473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC3C65D20BFCF8700E5473D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC3C66320BFCF8700E5473D /* OspreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OspreyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC3C66720BFCF8700E5473D /* OspreyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OspreyTests.m; sourceTree = "<group>"; };
+		AFC3C66920BFCF8700E5473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC3C66E20BFCF8700E5473D /* OspreyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OspreyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC3C67220BFCF8700E5473D /* OspreyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OspreyUITests.m; sourceTree = "<group>"; };
+		AFC3C67420BFCF8700E5473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5B0EEB406171670EC007F7 /* libPods-Osprey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Osprey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5F5B50A8D97E52228D253C /* Pods-Osprey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Osprey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Osprey/Pods-Osprey.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC3C64820BFCF8600E5473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761421348E4F62F776E2FE5A /* libPods-Osprey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C66020BFCF8700E5473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C66B20BFCF8700E5473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0542954F4F1ACE4FEFA7C7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5B0EEB406171670EC007F7 /* libPods-Osprey.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB6922219F3C9B84BBBA50F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F5B50A8D97E52228D253C /* Pods-Osprey.debug.xcconfig */,
+				4CCABDBA83D12583522F0FC9 /* Pods-Osprey.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFC3C64220BFCF8600E5473D = {
+			isa = PBXGroup;
+			children = (
+				AFC3C64D20BFCF8600E5473D /* Osprey */,
+				AFC3C66620BFCF8700E5473D /* OspreyTests */,
+				AFC3C67120BFCF8700E5473D /* OspreyUITests */,
+				AFC3C64C20BFCF8600E5473D /* Products */,
+				4BB6922219F3C9B84BBBA50F /* Pods */,
+				0542954F4F1ACE4FEFA7C7A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC3C64C20BFCF8600E5473D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3C64B20BFCF8600E5473D /* Osprey.app */,
+				AFC3C66320BFCF8700E5473D /* OspreyTests.xctest */,
+				AFC3C66E20BFCF8700E5473D /* OspreyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC3C64D20BFCF8600E5473D /* Osprey */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3C64E20BFCF8600E5473D /* AppDelegate.h */,
+				AFC3C64F20BFCF8600E5473D /* AppDelegate.m */,
+				AFC3C65120BFCF8600E5473D /* ViewController.h */,
+				AFC3C65220BFCF8600E5473D /* ViewController.m */,
+				AFC3C65420BFCF8600E5473D /* Main.storyboard */,
+				AFC3C65720BFCF8700E5473D /* Assets.xcassets */,
+				AFC3C65920BFCF8700E5473D /* LaunchScreen.storyboard */,
+				AFC3C65C20BFCF8700E5473D /* Info.plist */,
+				AFC3C65D20BFCF8700E5473D /* main.m */,
+			);
+			path = Osprey;
+			sourceTree = "<group>";
+		};
+		AFC3C66620BFCF8700E5473D /* OspreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3C66720BFCF8700E5473D /* OspreyTests.m */,
+				AFC3C66920BFCF8700E5473D /* Info.plist */,
+			);
+			path = OspreyTests;
+			sourceTree = "<group>";
+		};
+		AFC3C67120BFCF8700E5473D /* OspreyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3C67220BFCF8700E5473D /* OspreyUITests.m */,
+				AFC3C67420BFCF8700E5473D /* Info.plist */,
+			);
+			path = OspreyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC3C64A20BFCF8600E5473D /* Osprey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC3C67720BFCF8700E5473D /* Build configuration list for PBXNativeTarget "Osprey" */;
+			buildPhases = (
+				ABE5B5E057EE58862484C2E2 /* [CP] Check Pods Manifest.lock */,
+				AFC3C64720BFCF8600E5473D /* Sources */,
+				AFC3C64820BFCF8600E5473D /* Frameworks */,
+				AFC3C64920BFCF8600E5473D /* Resources */,
+				99C2230B195CEB0D9454DAF2 /* [CP] Embed Pods Frameworks */,
+				3C31635D46112B7A948D9706 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Osprey;
+			productName = Osprey;
+			productReference = AFC3C64B20BFCF8600E5473D /* Osprey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC3C66220BFCF8700E5473D /* OspreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC3C67A20BFCF8700E5473D /* Build configuration list for PBXNativeTarget "OspreyTests" */;
+			buildPhases = (
+				AFC3C65F20BFCF8700E5473D /* Sources */,
+				AFC3C66020BFCF8700E5473D /* Frameworks */,
+				AFC3C66120BFCF8700E5473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC3C66520BFCF8700E5473D /* PBXTargetDependency */,
+			);
+			name = OspreyTests;
+			productName = OspreyTests;
+			productReference = AFC3C66320BFCF8700E5473D /* OspreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC3C66D20BFCF8700E5473D /* OspreyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC3C67D20BFCF8700E5473D /* Build configuration list for PBXNativeTarget "OspreyUITests" */;
+			buildPhases = (
+				AFC3C66A20BFCF8700E5473D /* Sources */,
+				AFC3C66B20BFCF8700E5473D /* Frameworks */,
+				AFC3C66C20BFCF8700E5473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC3C67020BFCF8700E5473D /* PBXTargetDependency */,
+			);
+			name = OspreyUITests;
+			productName = OspreyUITests;
+			productReference = AFC3C66E20BFCF8700E5473D /* OspreyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC3C64320BFCF8600E5473D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = oriente;
+				TargetAttributes = {
+					AFC3C64A20BFCF8600E5473D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AFC3C66220BFCF8700E5473D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AFC3C64A20BFCF8600E5473D;
+					};
+					AFC3C66D20BFCF8700E5473D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AFC3C64A20BFCF8600E5473D;
+					};
+				};
+			};
+			buildConfigurationList = AFC3C64620BFCF8600E5473D /* Build configuration list for PBXProject "Osprey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC3C64220BFCF8600E5473D;
+			productRefGroup = AFC3C64C20BFCF8600E5473D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC3C64A20BFCF8600E5473D /* Osprey */,
+				AFC3C66220BFCF8700E5473D /* OspreyTests */,
+				AFC3C66D20BFCF8700E5473D /* OspreyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC3C64920BFCF8600E5473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3C65B20BFCF8700E5473D /* LaunchScreen.storyboard in Resources */,
+				AFC3C65820BFCF8700E5473D /* Assets.xcassets in Resources */,
+				AFC3C65620BFCF8600E5473D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C66120BFCF8700E5473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C66C20BFCF8700E5473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C31635D46112B7A948D9706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Osprey/Pods-Osprey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C2230B195CEB0D9454DAF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Osprey/Pods-Osprey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE5B5E057EE58862484C2E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Osprey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC3C64720BFCF8600E5473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3C65320BFCF8600E5473D /* ViewController.m in Sources */,
+				AFC3C65E20BFCF8700E5473D /* main.m in Sources */,
+				AFC3C65020BFCF8600E5473D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C65F20BFCF8700E5473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3C66820BFCF8700E5473D /* OspreyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC3C66A20BFCF8700E5473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3C67320BFCF8700E5473D /* OspreyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC3C66520BFCF8700E5473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC3C64A20BFCF8600E5473D /* Osprey */;
+			targetProxy = AFC3C66420BFCF8700E5473D /* PBXContainerItemProxy */;
+		};
+		AFC3C67020BFCF8700E5473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC3C64A20BFCF8600E5473D /* Osprey */;
+			targetProxy = AFC3C66F20BFCF8700E5473D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC3C65420BFCF8600E5473D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC3C65520BFCF8600E5473D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC3C65920BFCF8700E5473D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC3C65A20BFCF8700E5473D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC3C67520BFCF8700E5473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFC3C67620BFCF8700E5473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC3C67820BFCF8700E5473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5F5B50A8D97E52228D253C /* Pods-Osprey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Osprey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.Osprey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC3C67920BFCF8700E5473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCABDBA83D12583522F0FC9 /* Pods-Osprey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Osprey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.Osprey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC3C67B20BFCF8700E5473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OspreyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.OspreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osprey.app/Osprey";
+			};
+			name = Debug;
+		};
+		AFC3C67C20BFCF8700E5473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OspreyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.OspreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osprey.app/Osprey";
+			};
+			name = Release;
+		};
+		AFC3C67E20BFCF8700E5473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OspreyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.OspreyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Osprey;
+			};
+			name = Debug;
+		};
+		AFC3C67F20BFCF8700E5473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OspreyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.page.osprey.OspreyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Osprey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC3C64620BFCF8600E5473D /* Build configuration list for PBXProject "Osprey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC3C67520BFCF8700E5473D /* Debug */,
+				AFC3C67620BFCF8700E5473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC3C67720BFCF8700E5473D /* Build configuration list for PBXNativeTarget "Osprey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC3C67820BFCF8700E5473D /* Debug */,
+				AFC3C67920BFCF8700E5473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC3C67A20BFCF8700E5473D /* Build configuration list for PBXNativeTarget "OspreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC3C67B20BFCF8700E5473D /* Debug */,
+				AFC3C67C20BFCF8700E5473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC3C67D20BFCF8700E5473D /* Build configuration list for PBXNativeTarget "OspreyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC3C67E20BFCF8700E5473D /* Debug */,
+				AFC3C67F20BFCF8700E5473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC3C64320BFCF8600E5473D /* Project object */;
+}
