@@ -105,7 +105,7 @@ path: 可选
 
 query: 可选
 
-示例  cashalo://user/setting?userId=20180101
+示例  casha://user/setting?userId=20180101
 ```
 
 ### 路由配置文件
@@ -113,9 +113,9 @@ query: 可选
 每一应用都需要一个路由配置文件。 路由配置文件的后缀为".properties"; 需要主动注册到 BaseRouter 中。配置文件的格式要求示例如下
 ```
 #注释格式
-#对应寻址的URL协议为cashalo://user/settings/changepassword
+#对应寻址的URL协议为casha://user/settings/changepassword
 #采用 "." 做路径的区分 按照 scheme.host.pathComponent0.pathComponent1 的格式注册协议
-cashalo.user.settings.changepassword = CAUserSettingChangePwdPage
+casha.user.settings.changepassword = CAUserSettingChangePwdPage
 ```
 ### 默认路由配置项
 Osprey 为每个应用提供了一些默认配置项，配置项的路由协议如下，具体的应用示情况实现相关路由的配置。
